@@ -44,6 +44,7 @@ export async function signup(prevState, formData) {
      redirect('/training');
 }
 
+
 export async function login(prevState, formData) {
   const email = formData.get('email');
   const password = formData.get('password');
