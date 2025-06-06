@@ -41,6 +41,7 @@ export async function signup(prevState, formData) {
   //   }
   //   throw error;
   // }
+     redirect('/training');
 }
 
 export async function login(prevState, formData) {
